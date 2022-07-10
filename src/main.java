@@ -20,13 +20,11 @@ public class main {
         }
 
 
-
-        int year = 2021;
-        if (year % 4 == 0 && year % 100 != 0 && year != 400) {
+        int year = 400;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным");
         }
         else System.out.println(year + " год не является високосным");
-
 
 
         int deliveryDistance = 95;
